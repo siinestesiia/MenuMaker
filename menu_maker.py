@@ -41,7 +41,7 @@ class MenuMaker():
 ''' Create the folder that contains the pages. '''
 folder_gen = FolderGenerator()
 folder_name = folder_gen.generate_name('Menu')
-# folder_gen.generate_folder(folder_name)
+folder_gen.generate_folder(folder_name)
 
 
 page = PageGenerator(FILE_FORMAT, COLOR_MODE, A4_SIZE, WHITE_COLOR)
